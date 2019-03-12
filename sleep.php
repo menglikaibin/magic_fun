@@ -34,11 +34,13 @@ echo "\n";
 print_r(unserialize($ss));
 
 //返回:
-//当在类外部使用serialize()时会调用这里的__sleep()方法
-//O:6:"Person":2:{s:4:"name";s:8:"5bCP5piO";s:3:"age";i:25;}
-//Person Object
-//(
-//    [sex] =>
-//    [name] => 5bCP5piO
-//    [age] => 25
-//)
+/*
+    当在类外部使用serialize()时会调用这里的__sleep()方法
+    O:6:"Person":2:{s:4:"name";s:8:"5bCP5piO";s:3:"age";i:25;}
+    Person Object
+    (
+        [sex] =>
+        [name] => 5bCP5piO
+        [age] => 25
+    )
+*/

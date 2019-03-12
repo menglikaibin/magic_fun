@@ -27,7 +27,9 @@ class C
 var_dump(new C(42));
 
 //返回:
-//object(C)#1 (1) {
-//  ["propSquared"]=>
-//  int(1764)
-//}
+/*
+    object(C)#1 (1) {
+      ["propSquared"]=>
+      int(1764)
+    }
+*/

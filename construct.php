@@ -27,11 +27,18 @@ class Person
 
 $person1 = new Person();
 $person1->say();
-echo "<br>";
+echo "\n";
 
 $person2 = new Person("小明");
 $person2->say();
-echo "<br>";
+echo "\n";
 
 $person3 = new Person("李四", "男", 25);
 $person3->say();
+
+//返回:
+/*
+    我叫: , 性别: 男, 年龄: 22岁
+    我叫: 小明, 性别: 男, 年龄: 22岁
+    我叫: 李四, 性别: 男, 年龄: 25岁
+*/

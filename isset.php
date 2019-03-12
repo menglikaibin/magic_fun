@@ -26,10 +26,12 @@ echo isset($person->name) . "\n";
 echo isset($person->ss) . "\n";
 
 //返回:
-//bool(true)
-//
-//当在类外部使用isset()函数测定私有成员name时,自动调用
-//bool(true)
-//
-//当在类外部使用isset()函数测定私有成员ss时,自动调用
-//bool(false)
+/*
+    bool(true)
+
+    当在类外部使用isset()函数测定私有成员name时,自动调用
+    bool(true)
+
+    当在类外部使用isset()函数测定私有成员ss时,自动调用
+    bool(false)
+*/

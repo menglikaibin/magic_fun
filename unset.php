@@ -26,10 +26,12 @@ unset($person->name);
 unset($person->age);
 
 //返回:
-//当在类外部使用unset()函数来删除私有成员时自动调用的
-//bool(true)
-//当在类外部使用unset()函数来删除私有成员时自动调用的
-//bool(true)
+/*
+    当在类外部使用unset()函数来删除私有成员时自动调用的
+    bool(true)
+    当在类外部使用unset()函数来删除私有成员时自动调用的
+    bool(true)
+*/
 
 
 
